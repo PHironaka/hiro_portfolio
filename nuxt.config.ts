@@ -64,6 +64,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
+    '@nuxthq/studio',
     '@nuxt/image',
   ],
 })
