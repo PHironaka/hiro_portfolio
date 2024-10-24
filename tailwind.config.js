@@ -2,7 +2,17 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        pulseScale: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.2)'},
+        },
+      },
+      animation: {
+        pulse: 'pulseScale 1.5s ease-in-out infinite',
+      },
+    },
     fontFamily: {
       body: ['DM-Regular', 'sans-serif'],
       bold: ['DM-Bold', 'sans-serif'],

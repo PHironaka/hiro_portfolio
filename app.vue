@@ -44,7 +44,7 @@ h1 {
 }
 
 .fade-enter-active .site-header, .fade-leave-active .site-header {
-  transition: opacity 0.5s;
+  transition: opacity 0.3s;
   transition-delay: .6s;
 }
 </style>

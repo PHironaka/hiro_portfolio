@@ -13,7 +13,7 @@ const currentPath = computed({
     <div class="py-6 flex justify-between">
       <div>
         <NuxtLink to="/">
-          Peter Hironaka
+         Home
         </NuxtLink>
       </div>
       <nav class="flex list-none gap-6">

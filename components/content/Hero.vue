@@ -22,10 +22,11 @@ defineProps({
 <template>
   <section class="hero min-h-[70vh] flex flex-col justify-center">
     <div class="layout">
-      <div class="md:w-3/4 ">
+      <div class="md:w-full ">
         <div class="mt-20">
           <div v-if="available" class="flex items-center gap-4">
-            <div class="bg-green w-4 h-4 rounded-full block" />
+            <div class="bg-green w-4 h-4 rounded-full animate-[pulseScale_1.5s_ease-in-out_infinite]"></div>
+
             <h2> Available for new projects!</h2>
           </div>
         </div>
